@@ -18,4 +18,4 @@ This minimal module is typically used in early-stage Verilog exercises to reinfo
 
 ## Related HDLBits Exercise
 This module corresponds to the HDLBits problem:  
-(https://hdlbits.01xz.net/wiki/Zero)
+[Zero](https://hdlbits.01xz.net/wiki/Zero)
