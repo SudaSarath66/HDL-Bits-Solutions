@@ -18,4 +18,4 @@ This module is a basic building block for testing logic synthesis and is commonl
 
 ## Related HDLBits Exercise
 This module corresponds to the HDLBits problem:  
-(https://hdlbits.01xz.net/wiki/Step_one)
+[Step One](https://hdlbits.01xz.net/wiki/Step_one)
