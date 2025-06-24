@@ -1,1 +1,24 @@
+# Ignore Vivado/ModelSim temp files
+*.log
+*.jou
+*.pb
+*.str
+*.bit
+*.bin
+*.svf
+*.wdb
+*.vcd
+*.key
+
+# Common synthesis and simulation folders
+.cache/
+.hw/
+.runs/
+.sim/
+.ip_user_files/
+.Xil/
+tmp/           # Custom temp folder
+
+# Ignore README file (unusual, but included as per request)
+README.md
 
