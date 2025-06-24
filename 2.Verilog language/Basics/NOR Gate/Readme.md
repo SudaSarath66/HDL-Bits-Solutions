@@ -21,4 +21,4 @@ This module is commonly used in foundational digital logic design to illustrate 
 
 ## Related HDLBits Exercise
 This module corresponds to the HDLBits problem:  
-[Nor gate](https://hdlbits.01xz.net/wiki/Nor_gate)
+[Nor gate](https://hdlbits.01xz.net/wiki/Norgate)
