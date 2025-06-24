@@ -21,4 +21,4 @@ This is a foundational module used to teach binary operations and logic gate syn
 
 ## Related HDLBits Exercise
 This module corresponds to the HDLBits problem:  
-[And gate](https://hdlbits.01xz.net/wiki/And_gate)
+[And gate](https://hdlbits.01xz.net/wiki/Andgate)
