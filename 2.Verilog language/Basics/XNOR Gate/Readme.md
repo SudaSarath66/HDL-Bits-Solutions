@@ -21,4 +21,4 @@ This module reinforces understanding of compound logic expressions and is common
 
 ## Related HDLBits Exercise
 This module corresponds to the HDLBits problem:  
-[Xnor gate](https://hdlbits.01xz.net/wiki/Xnor_gate)
+[XNOR Gate](https://hdlbits.01xz.net/wiki/Xnor_gate)
