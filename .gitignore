@@ -17,8 +17,8 @@
 .sim/
 .ip_user_files/
 .Xil/
-tmp/           # Custom temp folder
+temp/           # Custom temp folder
 
 # Ignore README file (unusual, but included as per request)
-README.md
+Readme.md
 
