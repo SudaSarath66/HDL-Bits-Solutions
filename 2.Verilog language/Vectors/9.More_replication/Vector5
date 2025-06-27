@@ -1,0 +1,11 @@
+module top_module (
+    input a, b, c, d, e,
+    output [24:0] out );//
+
+    // The output is XNOR of two vectors created by 
+    // concatenating and replicating the five inputs.
+    // assign out = ~{ ... } ^ { ... };
+    wire [24:0] w1= {5{a,b,c,d,e}};
+    wire [24:0] w2= {a,a,a,a,a,b,b,b,b,b,c,c,c,c,c,d,d,d,d,d,e,e,e,e,e};
+    assign out = ~(w1^w2);
+endmodule
