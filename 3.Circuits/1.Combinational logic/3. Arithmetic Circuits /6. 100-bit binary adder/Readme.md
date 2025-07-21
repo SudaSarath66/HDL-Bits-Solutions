@@ -1,18 +1,25 @@
 # 🔢 Adder100 - 100-bit Binary Adder
 
 ## 📘 Overview
-This project implements a 100-bit binary adder in Verilog. It takes two 100-bit inputs (`a` and `b`) and a carry-in (`cin`), and produces a 100-bit sum along with a final carry-out. This is a concise example demonstrating how to use Verilog's powerful bitwise addition operator to build large-width adders efficiently.
+This Verilog module performs the addition of two 100-bit binary numbers along with a carry-in input. The result is a 100-bit sum and a 1-bit carry-out. The implementation leverages Verilog’s built-in arithmetic capabilities for compact and efficient code.
 
 ## ⚙️ Module Functionality
-- Inputs: Two 100-bit numbers `a` and `b`, and a carry-in `cin`.
-- Output: The 100-bit `sum` and a single-bit `cout` for carry-out.
-- This is a behavioral one-line implementation using Verilog's `+` operator.
+- **Inputs**
+  - `a [99:0]`: First 100-bit binary number
+  - `b [99:0]`: Second 100-bit binary number
+  - `cin`: Carry-in (1 bit)
+- **Outputs**
+  - `sum [99:0]`: 100-bit result of the addition
+  - `cout`: Carry-out from the most significant bit
 
 ## 🧠 Logic Explanation
-The expression `{cout, sum} = a + b + cin;` concatenates the carry-out with the sum, letting Verilog handle the carry propagation internally. This is efficient and synthesizable.
+The concatenation `{cout, sum}` collects the total 101-bit result of the addition (`a + b + cin`). Verilog’s arithmetic handles carry propagation naturally, and the most significant bit is directly assigned to `cout`.
 
 ## 🎯 Use Case
-Used in digital designs requiring high-width arithmetic operations such as ALUs, DSPs, or cryptographic hardware that needs to handle large data widths.
+This module is useful in building:
+- High-bit-width Arithmetic Logic Units (ALUs)
+- Digital Signal Processing (DSP) blocks
+- Cryptographic hardware that requires wide-word additions
 
 ## 📂 File Included
 
@@ -21,4 +28,5 @@ Used in digital designs requiring high-width arithmetic operations such as ALUs,
 | `top_module.v` | Verilog module for Adder100      |
 
 ## 🔗 Related HDLBits Exercise
-[Adder100 - HDLBits]([(https://hdlbits.01xz.net/wiki/Adder100])
+👉 [Adder100 - HDLBits](https://hdlbits.01xz.net/wiki/Adder100)
+
